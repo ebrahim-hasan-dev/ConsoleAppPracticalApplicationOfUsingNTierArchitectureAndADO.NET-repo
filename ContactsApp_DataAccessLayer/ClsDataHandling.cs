@@ -9,6 +9,13 @@ namespace ContactsApp_DataAccessLayer
 {
     public class ClsDataHandling
     {
+        // This connection string contains a test password, not the real one, as it was changed after the project was completed.
+
+        // The best practice here is to use the Windows Authentication method,
+        // or to use the Environment Variables method with the dotenv.net library to read variables from the .env text file and
+        // write the name of this file inside the .gitignore file so that it is not uploaded to GitHub.
+
+
         //static string _ConnectionString = "Server=.;Database=ContactsDB_3_TierArchitecture;User Id=sa;Password=123456";
         static string _ConnectionString = "Server=.;Database=ContactsDB_N_TierArchitecture;User Id=sa;Password=123456";
 
